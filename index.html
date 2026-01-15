@@ -582,7 +582,7 @@
                     <div class="themed-bg-secondary p-6 rounded-lg border themed-border transition-shadow duration-300 hover:shadow-xl">
                         <h3 class="text-lg font-semibold themed-text-primary">"Paper title"</h3>
                         <p class="themed-text-secondary text-sm my-1">
-                            John Smith, <span class="font-medium">Ranjan Sarkar</span>, Prof. 
+                            John Smith, <span class="font-medium">Saim Haroon</span>, Prof. 
                         </p>
                         <p class="italic themed-text-secondary text-sm">Conference</p>
                         <div class="mt-3 space-x-4">
@@ -1212,11 +1212,11 @@
                     const hash = window.location.hash.substring(1); // remove '#'
                     closeModal(); // always close modal on route change
                     if (courseData[hash]) {
-                        // document.title = `Ranjan Sarkar • ${courseData[hash].id}`;
-                        document.title = `Ranjan Sarkar`;
+                        // document.title = `Saim Haroon • ${courseData[hash].id}`;
+                        document.title = `Saim Haroon`;
                         showCoursePage(hash);
                     } else if (hash === 'seminars') {
-                        document.title = `Ranjan Sarkar`;
+                        document.title = `Saim Haroon`;
                         showPage('seminars');
                     } else {
                         mainContent.style.display = 'block';
