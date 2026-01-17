@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://ranjan-sarkar.github.io/sitemap.xml
-Sitemap: https://ranjan-sarkar.github.io/sitemap_amfai.xml
+Sitemap: https://saimharoon.com/sitemap.xml
+Sitemap: https://saimharoon.com/sitemap_amfai.xml
