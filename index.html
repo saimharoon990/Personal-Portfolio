@@ -1023,6 +1023,14 @@
                     } else {
                         modalFullscreenLink.href = data.link;
                     }
+                    
+                    if (courseId === 'aicps') {
+                        modalFullscreenLink.style.display = 'none';
+                    } else {
+                        modalFullscreenLink.style.display = 'inline-block';
+                        modalFullscreenLink.target = '_blank';
+                    }
+                    
                     modal.classList.add('show');
                 });
             });
